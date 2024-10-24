@@ -1,0 +1,27 @@
+{
+  "template": "https://github.com/linkml/linkml-project-cookiecutter",
+  "commit": "21dc84dd378e7aade7affaa329956ce93d38202d",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "KS_LinkML",
+      "__project_slug": "ks_linkml",
+      "github_org": "botsp",
+      "__source_path": "src/ks_linkml/schema/ks_linkml.yaml",
+      "project_description": "A demo to practice and familiarize myself with LinkML",
+      "full_name": "Kevin S",
+      "email": "progsupp89@gmail.com",
+      "__author": "Kevin S <progsupp89@gmail.com>",
+      "license": "MIT",
+      "main_schema_class": "Person",
+      "create_python_classes": "Yes",
+      "use_schemasheets": "Yes",
+      "google_sheet_id": "1wVoaiFg47aT9YWNeRfTZ8tYHN8s8PAuDx5i2HUcDpvQ",
+      "google_sheet_tabs": "Test_Tab",
+      "__google_sheet_module": "test_tab",
+      "github_token_for_pypi_deployment": "KS_LinkML_Token",
+      "_template": "https://github.com/linkml/linkml-project-cookiecutter"
+    }
+  },
+  "directory": null
+}

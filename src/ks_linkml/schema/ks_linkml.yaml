@@ -1,0 +1,40 @@
+---
+id: https://w3id.org/botsp/KS_LinkML
+name: KS_LinkML
+title: KS_LinkML
+description: |-
+  A demo to practice and familiarize myself with LinkML
+license: MIT
+see_also:
+  - https://botsp.github.io/KS_LinkML
+
+prefixes:
+  ks_linkml: https://w3id.org/botsp/KS_LinkML/
+  linkml: https://w3id.org/linkml/
+  biolink: https://w3id.org/biolink/
+  schema: http://schema.org/
+  PATO: http://purl.obolibrary.org/obo/PATO_
+  example: https://example.org/
+default_prefix: ks_linkml
+default_range: string
+
+imports:
+  - linkml:types
+  
+slots:
+  id:
+    description: A unique identifier for a person
+  name:
+    description: A person's name
+  primary_email:
+    description: A person's primary email address
+  age_in_years:
+    description: A person's age in years
+
+classes:
+  Person:
+    slots:
+      - id
+      - name
+      - primary_email
+      - age_in_years
